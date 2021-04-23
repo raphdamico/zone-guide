@@ -1,0 +1,19 @@
+{
+  "name": "zone-guide",
+  "version": "0.0.1",
+  "description": "A guide to The Zone",
+  "main": "index.js",
+  "authors": {
+    "name": "Raph D&#39;Amico",
+    "email": "raph.damico@gmail.com"
+  },
+  "repository": "/zone-guide",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
