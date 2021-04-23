@@ -38,6 +38,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'Haha',
+        link: '/haha/',
+      },      
+      {
         text: 'Config',
         link: '/config/'
       },
@@ -46,17 +50,46 @@ module.exports = {
         link: 'https://v1.vuepress.vuejs.org'
       }
     ],
+
     sidebar: {
       '/guide/': [
         {
-          title: 'Guide',
+          title: 'Guide',   // required
+          path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            '',
+            'using-vue',
+            
+          ]
+        },
+        {
+          title: 'Group 2', 
+          children: [ 
+            'blabla'
+          ],
+          // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        },
+        {
+          title: 'Mutation',
+          collapsable: false,
+          children: [ 
+            'mutation/',
+            'mutation/blabla'
+          ]
+        }              
+      ],
+      '/haha/': [
+        {
+          title: 'Haha',
           collapsable: false,
           children: [
             '',
             'using-vue',
           ]
         }
-      ],
+      ],      
     }
   },
 
