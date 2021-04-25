@@ -23,8 +23,6 @@ You are the 14th Expedition. You will almost certainly not return. Good hunting.
 END MISSION BRIEFING
 ::: 
 
-## Key Moves
+## Flow of the game
 
-### Not So Easy
-
-## asdf
+## How to play a scene

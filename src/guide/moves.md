@@ -14,4 +14,9 @@
 ## Not So Easy
 ![Some Alt Text](./images/not-so-easy.png)
 
+::: warning Tips for Not So Easy cards
+* Don't trigger more than one Not So Easy for a given problem
+* If you have many more Not So Easy cards than your other players, it's probably a a sign that you should be calling them on others instead of yourself
+:::
+
 

@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   base: '/zone-guide/',
-  title: 'Vuepress Docs Boilerplate',
+  title: 'The Zone Reference',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -39,10 +39,10 @@ module.exports = {
         text: 'Guide',
         link: '/guide/',
       },
-      {
-        text: 'Haha',
-        link: '/haha/',
-      },      
+      // {
+      //   text: 'Haha',
+      //   link: '/haha/',
+      // },      
       {
         text: 'Config',
         link: '/config/'
@@ -55,13 +55,13 @@ module.exports = {
 
     sidebar: {
       '/guide/': [
-        {
-          title: 'Introduction',
-          collapsable: false,
-          children: [ 
-            '',
-          ]
-        },          
+        // {
+        //   title: 'Introduction',
+        //   collapsable: false,
+        //   children: [ 
+        //     '',
+        //   ]
+        // },          
         {
           title: 'Guide',   // required
           path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
@@ -69,17 +69,11 @@ module.exports = {
           sidebarDepth: 2,    // optional, defaults to 1
           
           children: [
+            '',
             'rules',
             'moves',            
           ]
-        },
-        {
-          title: 'Moves',
-          collapsable: false,
-          children: [ 
-
-          ]
-        },               
+        },            
         {
           title: 'Mutation',
           collapsable: false,
@@ -98,16 +92,16 @@ module.exports = {
         },
          
       ],
-      '/haha/': [
-        {
-          title: 'Haha',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],      
+      // '/haha/': [
+      //   {
+      //     title: 'Haha',
+      //     collapsable: false,
+      //     children: [
+      //       '',
+      //       'using-vue',
+      //     ]
+      //   }
+      // ],      
     }
   },
 

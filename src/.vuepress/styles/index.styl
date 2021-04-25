@@ -64,17 +64,30 @@ body, html {
   font-style: italic;
 }
 
-  /// TIP = READ OUT LOUD
-  .custom-block.tip
-    font-family "GT-Cinetype-Mono"
-    font-size: 14px;
-    background-color rgba(0,0,0,0.5)
-    color white
-    border-color $zone-yellow
+code 
+  color black !important
+  background-color $zone-yellow !important
 
-  .custom-block.tip 
-    .custom-block-title
-        color: $zone-yellow
+.custom-block 
+  border-radius 6px
 
-  img 
-    border-radius 4px
+/// TIP = READ OUT LOUD
+.custom-block.tip
+  font-family "GT-Cinetype-Mono"
+  font-size: 14px;
+  background-color rgba(0,0,0,0.5)
+  color white
+  border-color $zone-yellow
+
+  .custom-block-title
+      color: $zone-yellow !important
+
+// Warning
+.custom-block.warning
+    color: $zone-yellow
+
+  .custom-block-title
+      color: $zone-yellow !important
+
+img 
+  border-radius 6px
