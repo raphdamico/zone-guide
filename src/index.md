@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /assets/zone-logo.png
 tagline: A guide to The Zone
 actionText: Quick Start →
 actionLink: /guide/
@@ -13,3 +13,4 @@ features:
   details: Feature 3 Description
 footer: Made by Raph D&#39;Amico with ❤️
 ---
+

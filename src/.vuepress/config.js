@@ -34,6 +34,7 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     displayAllHeaders: true, // Default: false
+    logo: '/assets/zone-logo.png',
     nav: [
       {
         text: 'Guide',
