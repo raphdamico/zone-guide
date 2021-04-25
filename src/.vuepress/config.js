@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  base: '/zone-guide/',
+  // base: '/zone-guide/',
   title: 'The Zone Reference',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
