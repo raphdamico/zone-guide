@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    displayAllHeaders: true, // Default: false
     nav: [
       {
         text: 'Guide',
@@ -54,23 +55,30 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
+          title: 'Introduction',
+          collapsable: false,
+          children: [ 
+            '',
+          ]
+        },          
+        {
           title: 'Guide',   // required
           path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
           collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
+          sidebarDepth: 2,    // optional, defaults to 1
+          
           children: [
-            '',
-            'using-vue',
-            
+            'rules',
+            'moves',            
           ]
         },
         {
-          title: 'Group 2', 
+          title: 'Moves',
+          collapsable: false,
           children: [ 
-            'blabla'
-          ],
-          // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
-        },
+
+          ]
+        },               
         {
           title: 'Mutation',
           collapsable: false,
@@ -78,7 +86,16 @@ module.exports = {
             'mutation/',
             'mutation/blabla'
           ]
-        }              
+        },             
+        {
+          title: 'Community', 
+          collapsable: false,
+          children: [ 
+            'tips'
+          ],
+          // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+        },
+         
       ],
       '/haha/': [
         {
