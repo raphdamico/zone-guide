@@ -29,8 +29,9 @@ jobs:
       - name: Build Vuepress 
         run: npm install && npm run build
 
-      # Runs a set of commands using the runners shell
-      - name: Move the output from /.vuepress/dist -> /docs
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # Move the output from /.vuepress/dist -> /docs
+      - name: Delete /docs (if it exists)
+        run: rm -r docs
+        
+      - name: Move build output from .vuepress/dist/ --> docs/
+        run: mv -f src/.vuepress/dist/ docs/
