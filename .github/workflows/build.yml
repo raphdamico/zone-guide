@@ -38,6 +38,7 @@ jobs:
         
       - name: Back to repo
         run: |
+          git pull
           git config --global user.name 'raphdamico'
           git config --global user.email 'raph.damico@gmail.com'
           git commit -am "Built after commit"
