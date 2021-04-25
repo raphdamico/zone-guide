@@ -31,7 +31,7 @@ jobs:
 
       # Move the output from /.vuepress/dist -> /docs
       - name: Delete /docs (if it exists)
-        run: rm -r docs
+        run: rm -r -f docs
         
       - name: Move build output from .vuepress/dist/ --> docs/
         run: mv -f src/.vuepress/dist/ docs/
