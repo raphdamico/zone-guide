@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Build Vuepress to docs/
 
 # Controls when the action will run. 
 on:
@@ -35,3 +35,10 @@ jobs:
         
       - name: Move build output from .vuepress/dist/ --> docs/
         run: mv -f src/.vuepress/dist/ docs/
+        
+      - name: Back to repo
+        run: |
+          git config --global user.name 'raphdamico'
+          git config --global user.email 'raph.damico@gmail.com'
+          git commit -am "Built after commit"
+          git push
