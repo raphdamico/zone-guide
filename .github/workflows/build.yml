@@ -36,10 +36,13 @@ jobs:
       - name: Move build output from .vuepress/dist/ --> docs/
         run: mv -f src/.vuepress/dist/ docs/
         
-      - name: Back to repo
+      - name: Commit files
         run: |
-          git config --global user.name 'raphdamico'
-          git config --global user.email 'raph.damico@gmail.com'
-          git pull
-          git commit -am "Built after commit"
-          git push
+          git config --local user.email "raph.damico@gmail.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
