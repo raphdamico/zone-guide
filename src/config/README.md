@@ -4,7 +4,7 @@ sidebar: auto
 
 # Config
 
-## foo
+## foosss
 
 - Type: `string`
 - Default: `/`

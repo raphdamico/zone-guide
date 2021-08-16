@@ -44,14 +44,14 @@ module.exports = {
       //   text: 'Haha',
       //   link: '/haha/',
       // },      
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+      // {
+      //   text: 'Config',
+      //   link: '/config/'
+      // },
+      // {
+      //   text: 'VuePress',
+      //   link: 'https://v1.vuepress.vuejs.org'
+      // }
     ],
 
     sidebar: {
@@ -67,30 +67,59 @@ module.exports = {
           title: 'Guide',   // required
           path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
           collapsable: false, // optional, defaults to true
-          sidebarDepth: 2,    // optional, defaults to 1
+          sidebarDepth: 1,    // optional, defaults to 1
           
           children: [
             '',
-            'rules',
-            'moves',            
+            'overview',
+            'moves',
+            'troubleshooting'            
           ]
         },            
-        {
-          title: 'Mutation',
-          collapsable: false,
-          children: [ 
-            'mutation/',
-            'mutation/blabla'
-          ]
-        },             
-        {
-          title: 'Community', 
-          collapsable: false,
-          children: [ 
-            'tips'
-          ],
-          // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
-        },
+        // {
+        //   title: 'Mutation',
+        //   collapsable: false,
+        //   children: [ 
+        //     'mutation/',
+        //     'mutation/blabla'
+        //   ]
+        // },
+      // '/guide_2/': [
+      //   // {
+      //   //   title: 'Introduction',
+      //   //   collapsable: false,
+      //   //   children: [ 
+      //   //     '',
+      //   //   ]
+      //   // },          
+      //   {
+      //     title: 'Guide',   // required
+      //     path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+      //     collapsable: false, // optional, defaults to true
+      //     sidebarDepth: 2,    // optional, defaults to 1
+          
+      //     children: [
+      //       '',
+      //       'rules',
+      //       'moves',            
+      //     ]
+      //   },            
+      //   {
+      //     title: 'Mutation',
+      //     collapsable: false,
+      //     children: [ 
+      //       'mutation/',
+      //       'mutation/blabla'
+      //     ]
+      //   },             
+      //   {
+      //     title: 'Community', 
+      //     collapsable: false,
+      //     children: [ 
+      //       'tips'
+      //     ],
+      //     // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      //   },
          
       ],
       // '/haha/': [
