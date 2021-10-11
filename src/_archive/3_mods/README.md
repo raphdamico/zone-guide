@@ -1,4 +1,18 @@
-# Quick FAQ
+# Welcome!
+
+### Hello folks! Glad you're here! This is a guide to some of the most frequently asked questions by players of [The Zone](http://www.thezonerpg.com). 
+
+Got any questions not covered here?
+
+* Come ask in the [Discord](https://discord.gg/rZwM84p35C)
+* Tweet me at [@raphdamico](https://www.twitter.com/raphdamico)
+* Email me at [raph@laughingkaiju.com](mailto:raph@laughingkaiju.com)
+
+::: warning Work-in-Progress
+"This is just a stub for now, but I wanted to get it started so there was a good reference to check in on the rules during the game. Stay tuned for more!" —Raph
+:::
+
+## Quick FAQ
 
 ### Who can do moves? Everyone!
 Any player can use the moves at any time—not just the Director!

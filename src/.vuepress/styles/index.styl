@@ -73,6 +73,7 @@ code
 .custom-block 
   border-radius 6px
 
+
 /// TIP = READ OUT LOUD
 .custom-block.tip
   font-family "GT-Cinetype-Mono"
@@ -95,3 +96,27 @@ code
   border-radius 6px
   border solid 1px white
   box-shadow 0px 0px 18px white
+
+
+
+
+table
+  border-collapse collapse
+  margin 1rem 0
+  display: block
+  overflow-x: auto
+  text-align: left
+
+tr
+  border-top 1px solid #dfe2e5
+
+  &:nth-child(2n)
+    background-color #f6f8fa24
+
+th, td
+  border 1px solid #dfe2e5
+  padding .6em 1em
+
+th 
+  background: white
+  color: black

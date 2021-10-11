@@ -1,6 +1,9 @@
 const { description } = require('../../package')
 
 module.exports = {
+  markdown: {
+    toc: { includeLevel: [1,2]}
+  },
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -33,12 +36,12 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    displayAllHeaders: true, // Default: false
+    displayAllHeaders: false, // Default: false
     logo: '/assets/zone-logo.png',
     nav: [
       {
         text: 'Guide',
-        link: '/guide/',
+        link: '/1_intro/',
       },
       // {
       //   text: 'Haha',
@@ -55,83 +58,60 @@ module.exports = {
     ],
 
     sidebar: {
-      '/guide/': [
-        // {
-        //   title: 'Introduction',
-        //   collapsable: false,
-        //   children: [ 
-        //     '',
-        //   ]
-        // },          
+      
+      '/guide/': [     
         {
-          title: 'Guide',   // required
-          path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          title: 'INTRO',   // required
+          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
           collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
-          
+          sidebarDepth: 1,    // optional, defaults to 1          
           children: [
-            '',
-            'overview',
-            'moves',
-            'troubleshooting'            
+            '',       
+          ]
+        },     
+        {
+          title: 'TROUBLESHOOTING',   // required
+          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1          
+          children: [
+            'troubleshooting',       
           ]
         },            
-        // {
-        //   title: 'Mutation',
-        //   collapsable: false,
-        //   children: [ 
-        //     'mutation/',
-        //     'mutation/blabla'
-        //   ]
-        // },
-      // '/guide_2/': [
-      //   // {
-      //   //   title: 'Introduction',
-      //   //   collapsable: false,
-      //   //   children: [ 
-      //   //     '',
-      //   //   ]
-      //   // },          
-      //   {
-      //     title: 'Guide',   // required
-      //     path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-      //     collapsable: false, // optional, defaults to true
-      //     sidebarDepth: 2,    // optional, defaults to 1
-          
-      //     children: [
-      //       '',
-      //       'rules',
-      //       'moves',            
-      //     ]
-      //   },            
-      //   {
-      //     title: 'Mutation',
-      //     collapsable: false,
-      //     children: [ 
-      //       'mutation/',
-      //       'mutation/blabla'
-      //     ]
-      //   },             
-      //   {
-      //     title: 'Community', 
-      //     collapsable: false,
-      //     children: [ 
-      //       'tips'
-      //     ],
-      //     // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
-      //   },
-         
-      ],
-      // '/haha/': [
-      //   {
-      //     title: 'Haha',
-      //     collapsable: false,
-      //     children: [
-      //       '',
-      //       'using-vue',
-      //     ]
-      //   }
-      // ],      
+        {
+          title: 'RULES REFERENCE',   // required
+          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1          
+          children: [
+            'rules/',       
+            'rules/characters',
+            'rules/rules',
+            'rules/moves',
+            'rules/mutation',
+            'rules/death',
+            'rules/endgame',
+          ]
+        },      
+        {
+          title: 'COMMENTARY',   // required
+          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1          
+          children: [
+            'advice/',     
+          ]
+        },                            
+        {
+          title: 'MAKE YOUR OWN ZONE',   // required
+          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+          collapsable: true, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1          
+          children: [
+            'mods/',         
+          ]
+        }
+      ],      
     }
   },
 
@@ -141,5 +121,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/active-header-links'
   ]
 }

@@ -12,6 +12,12 @@ Got any questions not covered here?
 "This is just a stub for now, but I wanted to get it started so there was a good reference to check in on the rules during the game. Stay tuned for more!" —Raph
 :::
 
+## Press, Podcasts & Streamers
+### [Check out the Press Kit](https://laughingkaiju.com/press/)
+There is a press kit for you, with tons of game assets including assets & logos to use in stream overlays. Please let me know if there's anything in there you need.
+
+## Cheatsheet
+
 ## Quick FAQ
 
 ### Who can do moves? Everyone!
