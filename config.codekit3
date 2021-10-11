@@ -2420,6 +2420,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/src\/guide\/mods\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/guide\/mods\/README.html",
+      "oF" : 0
+    },
     "\/src\/guide\/mods\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2431,6 +2439,25 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/src\/guide\/mods\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/src\/guide\/mods\/reference.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/guide\/mods\/reference.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
