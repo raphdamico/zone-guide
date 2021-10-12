@@ -72,7 +72,7 @@ module.exports = {
         {
           title: 'TROUBLESHOOTING',   // required
           // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-          collapsable: true, // optional, defaults to true
+          collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1          
           children: [
             'troubleshooting',       
@@ -81,7 +81,7 @@ module.exports = {
         {
           title: 'RULES REFERENCE',   // required
           // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-          collapsable: true, // optional, defaults to true
+          collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1          
           children: [
             'rules/',       
@@ -93,22 +93,26 @@ module.exports = {
             'rules/endgame',
           ]
         },      
-        {
-          title: 'COMMENTARY',   // required
-          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-          collapsable: true, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1          
-          children: [
-            'advice/',     
-          ]
-        },                            
+        // {
+        //   title: 'COMMENTARY',   // required
+        //   // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
+        //   collapsable: true, // optional, defaults to true
+        //   sidebarDepth: 1,    // optional, defaults to 1          
+        //   children: [
+        //     'advice/',     
+        //   ]
+        // },                            
         {
           title: 'MAKE YOUR OWN ZONE',   // required
           // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-          collapsable: true, // optional, defaults to true
+          collapsable: false, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1          
           children: [
-            'mods/',         
+            'mods/',
+            'mods/quickstart',            
+            'mods/principles',
+            'mods/reference',
+            'mods/gallery',
           ]
         }
       ],      

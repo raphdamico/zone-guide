@@ -2194,6 +2194,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/src\/guide\/images\/mods\/firstEdit.gif" : {
+      "ft" : 4194304,
+      "iS" : 644409,
+      "oA" : 0,
+      "oAP" : "\/src\/guide\/images\/mods\/firstEdit.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/src\/guide\/images\/mods\/firstEdit.m4v" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2201,16 +2211,6 @@
       "oA" : 0,
       "oAP" : "\/src\/guide\/images\/mods\/firstEdit.m4v",
       "oF" : 0
-    },
-    "\/src\/guide\/images\/mods\/firstEDitfirstEdit.gif" : {
-      "ft" : 4194304,
-      "iS" : 644409,
-      "oA" : 0,
-      "oAP" : "\/src\/guide\/images\/mods\/firstEDitfirstEdit.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
     },
     "\/src\/guide\/images\/mods\/getLinkAfter.png" : {
       "ft" : 32768,
@@ -2446,6 +2446,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/src\/guide\/mods\/reference.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/guide\/mods\/reference.html",
+      "oF" : 0
     },
     "\/src\/guide\/mods\/reference.md" : {
       "cB" : 0,
