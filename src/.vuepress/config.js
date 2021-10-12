@@ -112,6 +112,7 @@ module.exports = {
             'mods/quickstart',            
             'mods/principles',
             'mods/reference',
+            'mods/basecontent',
             'mods/gallery',
           ]
         }
