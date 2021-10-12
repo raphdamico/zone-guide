@@ -14,6 +14,10 @@ To make a Mod, you'll need:
 * [The Zone Base Content Spreadsheet (Base Content)](https://docs.google.com/spreadsheets/d/1BS4btC1UNcmz3orID6nz_AM2BFF9685I0EcfTtpwb14/edit#gid=1867446837). This includes (almost) all the content in the game, and is where the Modding actually happens
 * [The Zone Rules Reference](/guide/rules/)
 
+::: tip Credit 
+This way of making an online RPG moddable (and even some of the code at the heart of The Zone!) is inspired by Randy Lubin's [Story Synth](https://StorySynth.org), a delicious way to build an entire storytelling game using just a spreadsheet.
+:::
+
 ::: warning 🏗 This is just a first release
 I'll keep adding new ways to customize The Zone as y'all ask for them! Please report bugs and feature requests in the [Discord](https://discord.com/invite/rZwM84p35C) or contact me directly [raph.damico@gmail.com](mailto:raph.damico@gmail.com)
 :::
@@ -56,11 +60,11 @@ So:
 
 2. You retain ownership of any original material you write for your mod, and you assume no ownership of any material in THE ZONE RPG 
 
-3. If you publish your Module (in spreadsheet form), for example on your website or with an Itch.io store page, please credit it as a `Module for The Zone RPG, ©2020 Raph D'Amico (www.TheZoneRpg.com)` when describing it
+3. If you publish your Module (in spreadsheet form), for example on your website or with an Itch.io store page, please credit it as a `Module for The Zone RPG, ©2021 Raph D'Amico (www.TheZoneRpg.com)` when describing it
 
 4. You are absolutely welcome to charge for your supplement or offer it for free. Up to you. 
 
-5. You may not reproduce, distribute any material from `The Zone Rules Reference` or `The Zone Base Content`, or publish them in any other formats than as a spreadsheet that can be loaded into [play.TheZoneRpg.com](https://play.TheZoneRpg.com)
+5. You may not reproduce, distribute any material from `The Zone Rules Reference`, `The Zone Base Content`, and any image assets used in the game at play.thezonerpg.com, or publish them in any other formats than as a spreadsheet that can be loaded into [play.TheZoneRpg.com](https://play.TheZoneRpg.com)
 
 > A note about this last one: many of you are excited for the physical version (I am too, trust me!) and may want to use this to make your own print & play version. But I would prefer it if you were able to play it as intended! The Kickstarter is coming soon... 
 
