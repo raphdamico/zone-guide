@@ -1,4 +1,4 @@
-## Overview
+# Introduction
 ### The goal of this game is to tell a weird, magical realist horror story of mutation and self discovery. A story about people who risk everything for an obsession. A story where only one will make it to the end...
 
 ::: warning EXPEDITION 14 BRIEFING
@@ -33,10 +33,12 @@ We're each in charge of our characters, but share responsibility for everything 
 **We are not competing with each other. That's why our fates are secretly decided at the start, so we can focus on creating not so easy situations which characters will always take the bait on... and suffer the consequences.**
 You know those moments that have you yelling "DON'T GO IN THERE!" or "DON'T TOUCH THAT!" at your favorite horror film? That's this entire game.
 
-## What to expect
-A game of The Zone takes about 2-4 hours, depending on the number of players and how quickly you move through the scenes. The sweet spot is 4 players and about 3 hours, including rules and character creation. 
 
-### Typical flow of the game
+## How long will the game last?
+A game of The Zone takes 2-4 hours, depending on the number of players and how quickly you move through the scenes. The sweet spot is 4 players and about 3 hours, including rules and character creation. 
+
+<counter />
+
 | Time | Activity |
 | --- | --- |
 | 20 mins | Overview, Safety & Character Creation |
@@ -44,18 +46,29 @@ A game of The Zone takes about 2-4 hours, depending on the number of players and
 | 90-120 mins | Moving through the locations <br/> (There is a built in break in the middle, at "The Campfire") |
 | 10 mins | The judgement of the final player by those who died along the way |
 
-Overall, the first half is usually slower as characters explore the environment, themselves, and get to know the rules, and builds up unstoppable momentum in the second half after they start to die.
+Tips:
+* The first half is usually slower as characters explore the environment, themselves, and get to know the rules. As with any game, there is always a bit of a hump in the first 30-45 mins
+* Even though there are more locations, things tend to speed way up after the Campfire. Folks starting to die creates momentum.
+
+::: tip Data!
+I did a not very scientific analysis of 2 months of games of The Zone and [tweeted about it here](https://twitter.com/raphdamico/status/1412142869331136514). You can see how wide the range of games is, but it does seem to cluster around that 2-3 hour mark (or approximately one "Rogue One").
+
+![Data analysis of The Zone games](../images/data.jpeg)
+:::
 
 ::: warning Controlling the length of the game
 The Zone is GM-less from a storytelling perspective and takes on much of the facilitator's job of teaching the rules and running the game. The recommended way to play is to give yourself a spacious 3-4 hours and let the atmosphere sprawl. If you want the game to fit in a particular amount of time someone will have to play the role of Time Facilitator.
 
-For a 2 hours or less game:
-* Do only **one** scene per location, and keep each scene 5-7 mins long (this will be about 10 scenes) 
-* Keep character creation short (encourage folks to pick a random character first and see if they like them)
+For a fast game (2 hours or less if you facilitate hard):
+* Keep the group 4 or fewer
+* Unless your group are naturally terse storytellers, you'll most likely have to actively keep an eye on the time and keep things moving
 * Set the tone for this time facilitation early, especially by keeping the first scene in The Zone Observation Facility tight.
+* Do only **one** scene per location (ten scenes total) and keep each scene ~5 mins long
+* Keep character creation less than 10 minutes (encourage folks to pick a random character first and add in detail later if needed)
 * Get buy in: "Hey y'all, we mentioned that we wanted to try to keep this under 2 hours, is it OK if I keep us moving?"
+* If you really want to go fast, keep narration to a minimum. Particularly in the final half, you may keep scenes to just a skeleton and "writers room" what happens. 
 
-If it's your first time facilitating with this group, use The Zone Observation Facility as a diagnostic. Some groups love to sink into it and will roleplay for half an hour, getting to know each other and sharing rumors. 
+If it's your first time facilitating with this group, use The Zone Observation Facility as a diagnostic. Some groups love to sink into it and will roleplay for half an hour, letting their characters get to know each other and sharing rumors. 
 
 Rule of thumb: the whole game will last about `(Length of first scene / 3)` hours
 :::

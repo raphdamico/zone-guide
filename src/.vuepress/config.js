@@ -38,24 +38,7 @@ module.exports = {
     lastUpdated: false,
     displayAllHeaders: false, // Default: false
     logo: '/assets/zone-logo.png',
-    nav: [
-      {
-        text: 'Guide',
-        link: '/1_intro/',
-      },
-      // {
-      //   text: 'Haha',
-      //   link: '/haha/',
-      // },      
-      // {
-      //   text: 'Config',
-      //   link: '/config/'
-      // },
-      // {
-      //   text: 'VuePress',
-      //   link: 'https://v1.vuepress.vuejs.org'
-      // }
-    ],
+
 
     sidebar: {
       
@@ -93,29 +76,21 @@ module.exports = {
             'rules/endgame',
           ]
         },      
+                        
         // {
-        //   title: 'COMMENTARY',   // required
-        //   // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-        //   collapsable: true, // optional, defaults to true
+        //   title: 'MAKE YOUR OWN ZONE',   // required          
+        //   collapsable: false, // optional, defaults to true
         //   sidebarDepth: 1,    // optional, defaults to 1          
         //   children: [
-        //     'advice/',     
+        //     'mods/',
+        //     'mods/quickstart',            
+        //     'mods/principles',
+        //     'mods/reference',
+        //     'mods/basecontent',
+        //     'mods/gallery',
         //   ]
-        // },                            
-        {
-          title: 'MAKE YOUR OWN ZONE',   // required
-          // path: '/guide/',      // optional, link of the title, which should be an absolute path and must exist
-          collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1          
-          children: [
-            'mods/',
-            'mods/quickstart',            
-            'mods/principles',
-            'mods/reference',
-            'mods/basecontent',
-            'mods/gallery',
-          ]
-        }
+        // }
+
       ],      
     }
   },
