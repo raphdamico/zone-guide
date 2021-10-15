@@ -3,7 +3,7 @@
     If your scenes are 
     <input class='zone-input' type="number" v-model=sceneMinutes> 
     mins long, and you do <input class='zone-input' type="number" step="0.5" v-model=scenesPerLocation> per location, the game will last about 
-    <strong>{{ gameLength.string }}</strong>
+    <strong class='zone-output'>{{ gameLength.string }}</strong>
   </p>
 </template>
 
@@ -47,6 +47,15 @@
   .zone-input {
     width: 46px;
     padding: 4px 6px;
-    font-size: 16px;
+    font-size: 22px;
+    background: none;
+    border-width: 2px;
+    border-color: var(--theme-yellow);
+    border-style: none none dashed none;
+    color: var(--theme-yellow);
+  }
+  .zone-output {
+    font-size: 22px;
+    color: var(--theme-yellow);
   }
 </style>
