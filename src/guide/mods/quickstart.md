@@ -75,6 +75,21 @@ You should see the the title change from "No Mod Loaded" to "The Zone Reference 
 
 ![Some Alt Text](../images/mods/modLoaded.png)
 
+
+### TIP: Navigating through the game
+
+You will need to click back and forth through the game to see the changes that were made. The best way is to click through it by starting a new game and going through it, but this doesn't let you backtrack.
+
+If you need to backtrack, open the Debug menu (Click the "DEBUG") button at the bottom, and use this dropdown menu to navigate through every scene in the game
+
+![Some Alt Text](../images/mods/debug.png)
+
+If anything weird happens (which it can!), start by clicking "RESET TURN". If that doesn't fix your issue, you might have to RESET GAME and reload the mod.
+
 ::: warning TIPS
 * When you change the spreadsheet, changes will only be reflected if you manually hit "Load Mod" again
+* You can tweak the colors by opening the Web Inspector and scrolling down until you see the theme colors. You can change them right there.
+![Some Alt Text](../images/mods/theme-colors.png)
+
+![Some Alt Text](../images/mods/2021.10.23.modding.gif)
 :::
