@@ -22,7 +22,13 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],    
+    
+    ['link', { rel: "apple-touch-icon", sizes:'180x180', href: "/favicon/apple-touch-icon.png" }],    
+    ['link', { rel: "icon", type:'image/png',sizes:'32x32', href: "/favicon/favicon-32x32.png" }],
+    ['link', { rel: "icon", type:'image/png',sizes:'16x16', href: "/favicon/favicon-16x16.png" }],
+
+
   ],
 
   /**
@@ -77,19 +83,19 @@ module.exports = {
           ]
         },      
                         
-        // {
-        //   title: 'MAKE YOUR OWN ZONE',   // required          
-        //   collapsable: false, // optional, defaults to true
-        //   sidebarDepth: 1,    // optional, defaults to 1          
-        //   children: [
-        //     'mods/',
-        //     'mods/quickstart',            
-        //     'mods/principles',
-        //     'mods/reference',
-        //     'mods/basecontent',
-        //     'mods/gallery',
-        //   ]
-        // }
+        {
+          title: 'MAKE YOUR OWN ZONE [BETA]',   // required          
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1          
+          children: [
+            'mods/',
+            'mods/quickstart',            
+            'mods/principles',
+            'mods/reference',
+            'mods/basecontent',
+            'mods/gallery',
+          ]
+        }
 
       ],      
     }

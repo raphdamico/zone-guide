@@ -1,6 +1,6 @@
 # Quickstart
 ### Step 1: Go to the [base content spreadsheet](https://docs.google.com/spreadsheets/d/1BS4btC1UNcmz3orID6nz_AM2BFF9685I0EcfTtpwb14/edit#gid=1867446837)
-![Some Alt Text](../images/mods/sheet.png)
+![Some Alt Text](../images/mods/basecontent.png)
 [Reference spreadsheet](https://docs.google.com/spreadsheets/d/1BS4btC1UNcmz3orID6nz_AM2BFF9685I0EcfTtpwb14/edit#gid=1867446837)
 
 ### Step 2: Copy the spreadsheet
@@ -31,19 +31,25 @@ Get the URL to your spreadsheet by clicking "Copy Link". (You could also just ta
 Try this:
 * Go to the `Setup` tab
 * Change the value next to `modName` to the `The Icy Mod`
-* Change the value next to `zoneName` to the `The Cold Place`
+* Change the value next to `zoneName` to the `Very Cold Place`
 * Copy this color theme below #COLOR THEME
   |                     |                  |
   | ------------------- | ---------------- |
-  | theme-primary       | hsl(212,35%,87%) |
+  | theme-primary       | #c8dcf3 |
   | theme-primaryDark   | default |
-  | theme-secondary     | #8C97A1 |
-  | theme-light         | hsl(212,20%,95%) |
-  | theme-dark          | #2F597F |
+  | theme-secondary     | #8c97a1 |
+  | theme-light         | #f0f2f5 |
+  | theme-dark          | #2f597f |
   | theme-schematic     | #ffa700 |
-  | theme-death         | #C04242 |
-  | theme-zone          | aqua |
-  | theme-playerCursor  | #EEF8FF |
+  | theme-death         | #c04242 |
+  | theme-zone          | #4d00ff |
+  | theme-cardTint      | #b1ffff |
+  | theme-playerCursor  | #eef8ff |
+  | theme-particleColor | #eef8ff |
+
+* Try removing some locations, or changing other parts of the spreadsheet
+
+(If you want a working test, [here is a spreadsheet to try out](https://docs.google.com/spreadsheets/d/1SAbXX0dpm8466eg_3VPZWia17RvS8maNyt5JyVTC6w0/edit#gid=753412363))
 
 Then try to reloading the spreadsheet
 <br>
