@@ -35,17 +35,19 @@ Try this:
 * Copy this color theme below #COLOR THEME
   |                     |                  |
   | ------------------- | ---------------- |
-  | theme-primary       | #c8dcf3 |
-  | theme-primaryDark   | default |
-  | theme-secondary     | #8c97a1 |
-  | theme-light         | #f0f2f5 |
-  | theme-dark          | #2f597f |
-  | theme-schematic     | #ffa700 |
-  | theme-death         | #c04242 |
-  | theme-zone          | #4d00ff |
-  | theme-cardTint      | #b1ffff |
-  | theme-playerCursor  | #eef8ff |
-  | theme-particleColor | #eef8ff |
+  | theme-primary               | #f1ff00 | 
+  | theme-light                 | #ffffff | 
+  | theme-dark                	| #003333 | 
+  | theme-cardTint              | #b2ff92 | 
+  | theme-infoTint              | #00ff6e | 
+  | theme-boardTint             | #00b0e8ff | 
+  | theme-boardTintBlendMode    | soft-light | 
+  | theme-cursorTint            | #00ff00 | 
+  | theme-particleTint          | #ff7800 | 
+  | theme-zoneTint              | #9400ff | 
+  | theme-white                 | default | 
+  | theme-black                 | default | 
+
 
 * Try removing some locations, or changing other parts of the spreadsheet
 
