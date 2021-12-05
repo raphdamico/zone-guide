@@ -29,6 +29,9 @@ If you want to add a row or column just to use for notes or formatting your spre
 | Scene Questions | ~140 chars |
 | Not So Easy Prompt | ~140 chars |
 
+## Color theming
+* To access the color theming console, open the `SETTINGS` and click `View Console`
+* You can also click the `CONSOLE` button in the game lobby
 
 ## TIPS
 * `-a` will mean that every row in each cell is exported as a different item in an array. This is important for the character sheets, for example
