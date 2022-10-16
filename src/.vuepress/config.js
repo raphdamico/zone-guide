@@ -80,6 +80,7 @@ module.exports = {
             'rules/mutation',
             'rules/death',
             'rules/endgame',
+            'rules/solo',
           ]
         },      
                         
