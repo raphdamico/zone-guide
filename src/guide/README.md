@@ -1,6 +1,6 @@
 # Welcome!
 
-### Hello folks! Glad you're here! This is a guide to some of the most frequently asked questions by players of [The Zone](http://www.thezonerpg.com). 
+### Hello folks! Glad you're here! This is a guide to some of the most frequently asked questions by players of [The Zone](http://play.thezonerpg.com). 
 
 Got any questions not covered here?
 
@@ -9,7 +9,7 @@ Got any questions not covered here?
 * Email me at [raph@laughingkaiju.com](mailto:raph@laughingkaiju.com)
 
 ::: warning Work-in-Progress
-"This is just a stub for now, but I wanted to get it started so there was a good reference to check in on the rules during the game. Stay tuned for more!" —Raph
+"This guide is very much focused on the digital version of The Zone (for now), but the rules of the digital and physical editions are exactly the same!" —Raph
 :::
 
 ## Press, Podcasts & Streamers
