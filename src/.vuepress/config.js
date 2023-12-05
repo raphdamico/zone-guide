@@ -8,7 +8,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   // base: '/zone-guide/',
-  title: 'The Zone Reference',
+  title: 'THE ZONE Reference',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -47,7 +47,16 @@ module.exports = {
 
 
     sidebar: {
-      
+      // '/characters/': [
+      //   {
+      //     title: 'CHARACTERS',   // required
+      //     collapsable: false, // optional, defaults to true
+      //     sidebarDepth: 1,    // optional, defaults to 1          
+      //     children: [
+      //       '',       
+      //     ]
+      //   }
+      // ],
       '/guide/': [     
         {
           title: 'INTRO',   // required

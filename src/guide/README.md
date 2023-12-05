@@ -2,7 +2,7 @@
 
 ### Hello folks! Glad you're here! This is a guide to some of the most frequently asked questions by players of [The Zone](http://play.thezonerpg.com). 
 
-Got any questions not covered here?
+Got any questions not covered here, or just want to share?
 
 * Come ask in the [Discord](https://discord.gg/rZwM84p35C)
 * Tweet me at [@raphdamico](https://www.twitter.com/raphdamico)
