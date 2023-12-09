@@ -28,5 +28,6 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZONE_GUIDE }}'
           channelId: live
           projectId: zone-guide
+          node-version: '18' 
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
